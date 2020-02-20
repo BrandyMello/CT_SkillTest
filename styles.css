@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link_history,
+.link_team {
+  text-decoration: underline;
+}
+
+.section_top {
+  background: url("./images/skyBackground.jpg")no-repeat center center fixed;
+}
+
+h1 {
+  z-index: 1;
+}
+
+.img_mnt1 {
+  z-index: 2;
+}
+
+.img_mnt2 {
+  z-index: 3;
+}
