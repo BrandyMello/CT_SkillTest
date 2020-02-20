@@ -10,7 +10,13 @@ header {
 
 .section_top {
   background: url("./images/skyBackground.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 0;
 }
+/*I always use this code above for background images, found it a long time ago on css tricks.*/
 
 h1 {
   z-index: 1;
@@ -22,4 +28,31 @@ h1 {
 
 .img_mnt2 {
   z-index: 3;
+}
+
+.section_mid {
+  background: url("./images/section2Background.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 0;
+}
+
+.section_mid_title {
+  display: inline-flex;
+}
+
+h2 {
+  margin-left: 20%;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  background-color: #33334a;
+  /*I have a color picker for website pages but cannot convert to webpage*/
+  /*opacity: .05;*/
+  width:100%;
+  height: 150px;
 }
