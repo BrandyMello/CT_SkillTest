@@ -56,3 +56,28 @@ h2 {
   width:100%;
   height: 150px;
 }
+
+.section_mid {
+  background: url("./images/section3Background.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 0;
+}
+
+.link_mnt {
+  background-color: #33334a;
+  color: light-gray;
+  margin: 1% 25%;
+}
+
+.link_mnt:hover {
+  text-decoration: underline;
+  background-color: light-gray;
+  color: #33334a;
+}
+
+nav {
+  background-color: #33334a;
+}
